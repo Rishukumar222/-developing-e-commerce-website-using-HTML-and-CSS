@@ -1,0 +1,197 @@
+html{
+    scroll-behavior: smooth;
+}
+body, h1, h2, h3, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#banner{
+    width: 1500px;
+    height: 450px;
+    background-color: aqua;
+    background-image: url("https://cdn.pixabay.com/photo/2023/05/29/18/10/pottery-8026823_960_720.jpg" );
+    background-size:cover;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #000000;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background: #e6460c;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+    background: #555;
+}
+
+.hero {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 1rem;
+}
+
+.product {
+    flex: 1 1  calc(33% - 1rem);
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background: #e6460c;
+    color: #fff;
+    border: groove;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* @media (max-width: 768px) {
+    .product {
+        flex: 1 1 calc(50% - 1rem);
+    }
+}
+
+@media (max-width: 480px) {
+    .product {
+        flex: 1 1 100%;
+    }
+} */
+.artisans {
+    padding: 2em;
+}
+
+.artisans ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.artisans li {
+    margin: 20px;
+    width: calc(33.33% - 20px);
+}
+
+.artisans img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.contact{
+    min-height: 100px;
+    background-color: #e8f0fe;
+    padding:40px 0;
+    text-align: center;
+}
+.container{
+    max-width: 800px;
+    /* margin:500px; */
+}
+.container h2{
+    font-size: 36px;
+    margin-bottom:40px;
+    color:#333;
+}
+.contact-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+.contact-form {
+    text-align:center;
+}
+.contact-form h3{
+    font-size: 24p;
+    margin-bottom: 40px;
+    color:#333;
+}
+.form-group{
+    margin-bottom: 20px;
+   
+}
+.sp{
+    display: wrap;
+    text-align: center;
+    position: relative;
+    left : 320px
+}
+input, textarea{
+    margin:center;
+    width: 500px;
+    padding:12px;
+    border-radius:80px;
+    border:none;
+    background-color:#f8f9fa;
+    color:#333
+}
+input:focus,
+textarea:focus{
+    outline:none;
+    box-shadow: 0 0 8px #bbb;
+}
+button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: rgb(240, 111, 5);
+    cursor: pointer;
+    border-radius: 12px
+    
+
+}
+
